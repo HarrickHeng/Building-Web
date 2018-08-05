@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/cssReset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+	</head>
+	<body onload="init()">
+		<!-- S= 页面的顶部 -->
+		<div class="top">
+			<div class="top_page">
+				<div class="top_page_l fl">您好，欢迎来到建材网！</div>						
+				<div class="top_page_r fr">
+					<ul>
+						<li><a href="#">建材网首页</a></li>
+						<li><a href="#">我的商务室</a><s></s></li>
+						<li><a href="#">我的收藏</a><s></s></li>
+						<li><a href="#">建材服务</a><s></s></li>
+						<li><a href="#">客服中心</a></li>
+						<li><a href="#">网站导航</a><s></s></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- E= 页面的底部 -->
+		<!-- S= logo -->
+		<div class="logo">
+			<h1 class="logo_l fl" >建材网站</h1>
+			<div class="logo_r fr">
+				<div class="logo_r_content">
+					<input type="input" class="logo_r_searche fl" placeholder="请输入关键字">
+				    <input type="button" class="logo_r_btn fl" value="搜索"></input>			
+				</div>
+			</div>
+		</div>
+		<!-- E= logo -->
+		<!-- S= 导航 -->
+		<nav>
+			<ul id="navul">
+				<li class="navlis active" onclick="tagnav(0)"><a href="#">首页</a></li>
+				<li class="navlis" onclick="tagnav(1)"><a href="#">建筑材料</a></li>
+				<li class="navlis" onclick="tagnav(2)"><a href="#">儿童安全座椅</a></li>
+				<li class="navlis" onclick="tagnav(3)"><a href="#">工艺美术品</a></li>
+			</ul>
+		</nav>
+		<!-- E= 导航 -->
+		<!-- S= banner -->
+		<div class="banner">
+			<div class="subNav fl">
+				<h2>商机市场</h2>
+				<ul>
+					<li><s></s><a href="#">建筑材料</a></li>
+					<li><s></s><a href="#">儿童安全座椅</a></li>
+					<li><s></s><a href="#">工艺美术品</a></li>
+					<li><s></s><a href="#">建筑材料</a></li>
+					<li><s></s><a href="#">儿童安全座椅</a></li>
+					<li><s></s><a href="#">建筑材料</a></li>
+				</ul>
+			</div>
+			<div class="ad fl">
+				<img src="img/bg_Firstdeck01.png" id="adimg">
+			</div>
+			<div class="message fr">
+				<div class="message_top">
+					<p class="fw">建材通大众版</p>
+					<s class="fl"></s><p class="cheap fl">价格实惠，量身为预算不多<br>的供应商所设。<a href="#">了解详情</a></p>
+				</div>
+				<div class="message_bottom">
+					<p class="findMessage">找信息或者发信息遇到问题？</p>
+					<p class="phone"><s></s>0214-123456654</p>
+					<input type="image" class="phoneimg" src="img/色块－联系人.png">
+				</div>
+			</div>			
+		</div>
+		<!-- E= banner -->
+		<div class="material">建筑材料</div>
+		<!-- S= 具体信息 -->
+		<div class="product">
+			<div class="product_l fl">
+				<div class="product_l_top">
+					<div class="product_l_top_1 fl">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+					<div class="product_l_top_2">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+				</div>
+				<div class="product_l_line"></div>
+				<div class="product_l_bottom">
+					<div class="product_l_top">
+					<div class="product_l_top_1 fl">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+					<div class="product_l_top_2">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+				</div></div>
+			</div>
+			<div class="product_r fl">
+				<h2>建材咨询</h2>
+				<ul>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- E= 具体信息 -->
+		<!-- S= 安全座椅-->
+		<div class="material">儿童安全座椅</div>
+		<!-- E= 安全座椅-->
+		<!-- S= 具体信息2 -->
+		<div class=""></div>
+		<!-- E= 具体信息2 -->
+		<!-- S= 工艺美术品-->
+		<div class="material">工艺美术品</div>
+		<!-- E= 工艺美术品-->	
+		<!-- S= 具体信息3 -->
+		<div class="product">
+			<div class="product_l fl">
+				<div class="product_l_top">
+					<div class="product_l_top_1 fl">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+					<div class="product_l_top_2">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+				</div>
+				<div class="product_l_line"></div>
+				<div class="product_l_bottom">
+					<div class="product_l_top">
+					<div class="product_l_top_1 fl">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+					<div class="product_l_top_2">
+						<div class="buy fl">
+							<div class="img"></div>
+							<input type="button" class="btn" value="立即购买">
+						</div>
+						<div class="expain fl">
+							<p class="e01">好老哥晾衣架&nbsp;铝钛合金&nbsp;升降双杆</p>
+							<p class="e02">自动换挡&nbsp;安全耐用<br>稳定性好&nbsp;抗氧化强</p>
+							<p class="e03"><span>239.00</span><s>￥386.00</s></p>
+							<p class="e04">限量99件，已售22件</p>
+						</div>
+					</div>
+				</div></div>
+			</div>
+			<div class="product_r fl">
+				<h2>建材咨询</h2>
+				<ul>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+					<li><a href="#">香港钢材市场7月30日市场行情</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- E= 具体信息3 -->
+		<!-- S= 友情链接 -->
+		<div class="link">
+			<p class="link_p1">友情链接：百度&nbsp;新浪&nbsp;传智播客&nbsp;网易&nbsp;腾讯网&nbsp;传智播客&nbsp;网易&nbsp;腾讯网</p>
+			<p class="link_p2">百度&nbsp;新浪&nbsp;传智播客&nbsp;网易&nbsp;腾讯网</p>
+		</div>
+		<!-- E= 友情链接 -->
+		<!-- S= 关于我们 -->
+		<footer>
+			<p>关于我们 | 关于他们 | 关于你们 | 联系方式 | 版权说明</p>
+			<p>关于我们 | 关于他们 | 关于你们 | 联系方式 | 版权说明</p>
+			<p>关于我们 | 关于他们 | 关于你们 | 联系方式 | 版权说明</p>
+			<p>本站网络实名：Harrick</p>
+		</footer>
+		<!-- E= 关于我们 -->
+		<script type="text/javascript">
+			function tagnav(index) {
+				var navlis = document.getElementsByClassName("navlis");	
+				navlis[0].className = "navlis";
+				navlis[1].className = "navlis";
+				navlis[2].className = "navlis";
+				navlis[3].className = "navlis";
+				navlis[index].className = "navlis active";
+				console.log(navlis);
+			};
+			
+			var pathArr = [
+			"img/bg_Firstdeck01.png",
+			"img/bg_Firstdeck02.png",
+			"img/bg_Firstdeck03.png"
+			];
+			var index = 0;
+			
+			function changeImg() {
+				var adimg = document.getElementById('adimg');
+				index ++;
+				if(index >= 3) {
+					index = 0;
+				};
+				adimg.src = pathArr[index];
+			};
+			
+			function init() {
+				setInterval(changeImg,3000);
+			};
+		</script>
+	</body>
+</html>
